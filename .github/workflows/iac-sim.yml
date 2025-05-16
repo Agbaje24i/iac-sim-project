@@ -1,0 +1,22 @@
+name: Terraform IaC Simulation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  terraform-sim:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Terraform
+        uses: hashicorp/setup-terraform@v2
+
+      - name: Terraform Init (Simulated)
+        run: terraform init
+
+      - name: Terraform Plan (Simulated)
+        run: terraform plan
