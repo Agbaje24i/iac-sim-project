@@ -36,9 +36,6 @@ This project simulates deploying Azure infrastructure using Terraform without ac
 ## 🚀 Goal
 To demonstrate understanding of Infrastructure as Code (IaC) principles and version control using Git and GitHub.
 
-## 📸 Screenshot
-(Add a screenshot of your terminal showing `terraform plan` if available.)
-
 ## 📚 Note
 No actual Azure resources were deployed in this simulation.
 
